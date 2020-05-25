@@ -89,7 +89,7 @@ print  """
  \033[1;96m ┈┈┈┈┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈
  \033[1;96m ┈┈┈┈┈┈┈┈╱▔▔▔▔┊┊┊┊▔▔▔▔╲┈┈┈┈
   \033[1;96m ─────────────•◈•──────────  
-   \033[1;92m███████▒▒Welcome To BlackMafia▒▒████████
+   \033[1;92m███████▒▒Welcome To Xtylish Sam▒▒████████
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96mNishaNegi\033[1;95m♡╭──────────•◈•──────────╮♡
 \033[1;94mAuthor\033[1;91m: \033[1;91mxtylishsam
 \033[1;94mNishaNegi\033[1;91m: \033[1;91▒▓██████████████]99.9
@@ -248,6 +248,7 @@ def super():
 	print logo
 	print "\033[1;96m--\033[1;92m> \033[1;92m1.\x1b[1;91mClone From Friend List..."
 	print "\033[1;96m--\033[1;92m> \033[1;92m2.\x1b[1;91mClone From Public ID..."
+        Print "\033[1;96m--\033[1;92m> \033[1;92m3.\x1b[1;91mClone From Friendlist Group..."
 	print "\033[1;96m--\033[1;91m> \033[1;91m0.\033[1;94mBack"
 	pilih_super()
 
@@ -417,7 +418,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mNishanegi\033[1;95m♡──────────•◈•──────────♡"
-	print "  \033[1;93m«---•◈•---Developed By love---•◈•---»" #Dev:love_hacker
+	print "  \033[1;93m«---•◈•---Developed By Sam---•◈•---»" #Dev:love_hacker
 	print '\033[1;91mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
 	print """
