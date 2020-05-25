@@ -248,7 +248,9 @@ def super():
 	print logo
 	print "\033[1;96m--\033[1;92m> \033[1;92m1.\x1b[1;91mClone From Friend List..."
 	print "\033[1;96m--\033[1;92m> \033[1;92m2.\x1b[1;91mClone From Public ID..."
+	
 
+	
 	print "\033[1;96m--\033[1;91m> \033[1;91m0.\033[1;94mBack"
 	pilih_super()
 
